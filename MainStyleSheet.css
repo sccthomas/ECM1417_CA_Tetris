@@ -1,0 +1,274 @@
+/*
+Nav Bar css
+ */
+
+#alignleft {
+  float: left;
+}
+#alignright {
+  float: right;
+}
+ul.NavBar {
+  background-color: blue;
+  overflow: hidden;
+  padding: 0px;
+  list-style-type: none;
+}
+ul.NavBar li a {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-family: Arial;
+  font-weight: bold;
+  display: block;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+ul.NavBar li a:hover {
+  background-color: #0088ff;
+}
+/*
+Tetris image css
+ */
+div.main {
+  background-image: url("img/tetris.png");
+  position: fixed;
+  width: 95%;
+  height: 100%;
+  left: 2.5%;
+  background-repeat: no-repeat;
+  background-position:center center;
+  background-size: cover;
+  align-items: center;
+}
+
+
+/*
+Register form css
+ */
+div.form {
+  background-color: #c7c7c7;
+  box-shadow: 5px 5px 5px;
+  width: fit-content;
+  margin: 15% auto;
+  padding: 15px;
+  justify-content: space-between;
+  border-radius: 12px;
+  opacity: 95%;
+}
+div.form label{
+  display: inline-block;
+  width: auto;
+  text-align: right;
+  margin-right: 10px;
+}
+div.form a{
+  text-align: center;
+  padding-left: 10px;
+  margin-right: 170px;
+}
+#display_yes_button{
+  display: inline-block;
+  margin-top: unset;
+  margin-bottom: unset;
+}
+#display_no_button{
+  display: compact;
+  margin-top: unset;
+  margin-bottom: unset;
+}
+#display_yes{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 40%;
+
+}
+#display_no{
+  vertical-align: top;
+  margin-right: 40.5%;
+  ;
+
+}
+div.form button{
+  size: 100px;
+  padding: 10px 50px;
+  margin-right: 190px;
+  border-radius: 12px;
+}
+
+/*
+Index page css
+ */
+#login_form{
+  background-color: #c7c7c7;
+  width: fit-content;
+  margin: 15% auto;
+  height: 5cm;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px #c7c7c7;
+}
+#login_form label{
+  display: inline-block;
+  text-align: center;
+  margin-left: 1px;
+}
+#login_form input{
+  display: inline-block;
+  margin-right: 10%;
+  margin-bottom: -5px;
+  margin-top: 10px;
+}
+#login_form p{
+  /* margin-right: 40%; */
+  margin-bottom: -5px;
+  margin-top: -5px;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+#login_form a{
+  margin-right: 35px;
+  display: inline-block;
+  font-size: 20px;
+}
+#login_form button{
+  margin-left: 105px;
+  padding: 5px;
+  border-radius: 12%;
+  font-size: 14px;
+  /* display: inline-block; */
+}
+#IndexForm{
+  background-color: #c7c7c7;
+  width: 8cm;
+  margin:17% auto;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px #c7c7c7 ;
+}
+#IndexForm h1{
+  margin-right: 10%;
+  text-align:center;
+  margin:auto
+}
+
+#playbutton{
+  margin-right: 30%;
+  padding: 9px;
+  border-radius: 12px;
+  margin-left:30%;
+}
+#logoutbutton{
+  padding:10px;
+  width:fit-content;
+  border-radius: 12px;
+  margin-left:39%;
+}
+/*
+Tetris page
+ */
+
+#tetris_all{
+  align-items: center;
+  position: fixed;
+  margin-left: 40%;
+}
+
+#tetris-bg{
+  background-color: #c7c7c7;
+  box-shadow: 5px 5px 5px;
+  background-image: url("img/tetris-grid-bg.png");
+  width: 300px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+}
+#tetris-bg div{
+  height: 30px;
+  width: 30px;
+}
+
+#tetris-bg_cover{
+  width: 300px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#tetris-bg_cover div{
+  height: 30px;
+  width: 30px;
+}
+
+#tetris_all h3{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+div.main h3{
+  text-align: center;
+}
+#start_game{
+  border-radius: 12px;
+  padding: 10px;
+}
+#play_again{
+  padding: 10px;
+  border-radius: 12px;
+}
+#L{
+  background-color: orange;
+  opacity: 95%;
+}
+#Z{
+  background-color: red;
+  opacity: 95%;
+}
+#S{
+  background-color: green;
+  opacity: 95%;
+}
+#T{
+  background-color: purple;
+  opacity: 95%;
+}
+#O{
+  background-color: yellow;
+  opacity: 95%;
+}
+#I{
+  background-color: cyan;
+  opacity: 95%;
+}
+
+/*
+Leaderboard
+ */
+
+div.leaderboard{
+  background-color: #c7c7c7;
+  box-shadow: 5px 5px 5px;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  position:relative;
+}
+div.leaderboard table{
+  border-spacing: 2px;
+  border: 1px solid black;
+
+}
+div.leaderboard table th{
+  border: 1px solid black;
+  background-color: blue;
+  font-size:20;
+}
+div.leaderboard table tr{
+  border: 1px solid black;
+  text-align: center;
+}
+div.leaderboard table td{
+  border: 1px solid black;
+}
